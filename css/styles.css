@@ -1,0 +1,1480 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-image: url(img/Background.jpg);
+  background-size: cover;
+  /* Растягивает изображение, чтобы оно покрывало весь фон */
+}
+
+main .header {
+  height: 165px;
+  margin-top: -30px;
+  background-color: rgba(0, 0, 0, 0.452);
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000;
+}
+
+main .header .menu ol {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  list-style-type: none;
+  text-align: center;
+  margin-right: 65px;
+}
+
+main .header .menu ol li {
+  padding: 40px;
+  font-weight: 800;
+  margin-top: 25px;
+  text-align: center;
+}
+
+main .header .menu ol li a {
+  text-decoration: none;
+  cursor: pointer;
+  color: white;
+  transition: 0.30s;
+}
+
+main .header .menu ol li .update {
+  color: blueviolet;
+}
+
+main .header .menu ol li a:hover {
+  color: rgb(166, 166, 166);
+  transition: 0.30s;
+}
+
+main .header .menu ol li .logo {
+  position: relative;
+  bottom: 105px;
+  width: 250px;
+
+}
+
+main h1 {
+  margin-top: 150px;
+  text-align: center;
+  color: white;
+  font-size: 60px;
+  font-weight: 800;
+}
+
+main p {
+  margin-top: 80px;
+  text-align: center;
+  font-weight: 600;
+  font-size: 35px;
+  color: rgb(255, 255, 255);
+  line-height: 1.5;
+}
+
+@media (max-width: 768px) {
+  /* Общие изменения для мобильных устройств */
+
+  main .header {
+    height: auto;
+    margin-top: 0;
+    padding: 10px 0;
+    background-color: rgba(0, 0, 0, 0.8);
+  }
+
+  main .header .menu ol {
+    flex-direction: column;
+    align-items: center;
+    margin: 10px 0;
+    margin-right: 30px;
+  }
+
+  main .header .menu ol li {
+    padding: 10px;
+    margin: 0;
+  }
+
+  main .header .menu ol li .logo {
+    bottom: 0;
+    /* Вернуть лого в нормальное положение */
+    width: 200px;
+    /* Уменьшить ширину лого */
+  }
+
+  main h1 {
+    margin-top: 50px;
+    font-size: 40px;
+  }
+
+  main p {
+    margin-top: 40px;
+    font-size: 20px;
+  }
+
+  main .telegram .telegram_text {
+    padding-top: 30px;
+    font-size: 25px;
+  }
+
+  main .telegram .telegram_button button {
+    width: 250px;
+    height: 50px;
+    font-size: 16px;
+  }
+}
+
+/* Стили для планшетов и небольших экранов */
+@media (min-width: 769px) and (max-width: 1200px) {
+  main .header {
+    height: auto;
+    margin-top: 0;
+    padding: 10px 0;
+    background-color: rgba(0, 0, 0, 0.8);
+  }
+
+  main .header .menu ol {
+    flex-direction: column;
+    align-items: center;
+    margin: 10px 0;
+    margin-right: 30px;
+  }
+
+  main .header .menu ol li {
+    padding: 10px;
+    margin: 0;
+  }
+
+  main .header .menu ol li .logo {
+    bottom: 0;
+    /* Вернуть лого в нормальное положение */
+    width: 200px;
+    /* Уменьшить ширину лого */
+  }
+
+  main h1 {
+    margin-top: 50px;
+    font-size: 40px;
+  }
+
+  main h2 {
+    margin-top: 50px;
+    font-size: 30px;
+  }
+
+  main p {
+    margin-top: 40px;
+    font-size: 20px;
+    line-height: 1.4;
+  }
+
+  main p span {
+    font-weight: 800;
+  }
+
+  main .p_clamsy {
+    font-weight: 800;
+  }
+
+  main .clamsy_img {
+    width: 100%;
+    /* Изменить ширину картинки на 100% */
+    height: auto;
+    margin-left: 0;
+    /* Убрать отступ слева */
+  }
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-image: url(img/Background.jpg);
+  background-size: cover;
+}
+
+main .header {
+  height: 165px;
+  margin-top: -30px;
+  background-color: rgba(0, 0, 0, 0.452);
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000;
+}
+
+main .header .menu ol {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  list-style-type: none;
+  text-align: center;
+  margin-right: 65px;
+}
+
+main .header .menu ol li {
+  padding: 40px;
+  font-weight: 800;
+  margin-top: 25px;
+  text-align: center;
+}
+
+main .header .menu ol li a {
+  text-decoration: none;
+  cursor: pointer;
+  color: white;
+  transition: 0.30s;
+}
+
+main .header .menu ol li .instruction {
+  color: blueviolet;
+}
+
+main .header .menu ol li a:hover {
+  color: rgb(166, 166, 166);
+  transition: 0.30s;
+}
+
+main .header .menu ol li .logo {
+  position: relative;
+  bottom: 105px;
+  width: 250px;
+
+}
+
+main h1 {
+  margin-top: 150px;
+  text-align: center;
+  color: white;
+  font-size: 60px;
+  font-weight: 800;
+}
+
+main p {
+  margin-top: 80px;
+  text-align: center;
+  font-weight: 600;
+  font-size: 35px;
+  color: rgb(222, 222, 222);
+  line-height: 1.5;
+}
+
+main p span {
+  font-weight: 800;
+}
+
+main h2 {
+  margin-top: 100px;
+  text-align: center;
+  color: white;
+  font-size: 40px;
+  font-weight: 800;
+}
+
+main .p_clamsy {
+  font-weight: 800;
+}
+
+main .clamsy_img {
+  width: 500px;
+  height: 800px;
+  margin-left: 665px;
+}
+
+/* Стили для мобильных устройств (телефонов и планшетов) */
+@media (max-width: 1200px) {
+  /* Общие изменения для мобильных устройств */
+
+  main .header {
+    height: auto;
+    margin-top: 0;
+    padding: 10px 0;
+    background-color: rgba(0, 0, 0, 0.8);
+  }
+
+  main .header .menu ol {
+    flex-direction: column;
+    align-items: center;
+    margin: 10px 0;
+    margin-right: 30px;
+  }
+
+  main .header .menu ol li {
+    padding: 10px;
+    margin: 0;
+  }
+
+  main .header .menu ol li .logo {
+    bottom: 0;
+    /* Вернуть лого в нормальное положение */
+    width: 200px;
+    /* Уменьшить ширину лого */
+  }
+
+  main h1 {
+    margin-top: 50px;
+    font-size: 40px;
+  }
+
+  main h2 {
+    margin-top: 50px;
+    font-size: 30px;
+  }
+
+  main p {
+    margin-top: 40px;
+    font-size: 20px;
+    line-height: 1.4;
+  }
+
+  main p span {
+    font-weight: 800;
+  }
+
+  main .p_clamsy {
+    font-weight: 800;
+  }
+
+  main .clamsy_img {
+    width: 100%;
+    /* Изменить ширину картинки на 100% */
+    height: auto;
+    margin-left: 0;
+    /* Убрать отступ слева */
+  }
+}
+
+/* Оставшиеся стили для планшетов и небольших экранов */
+@media (min-width: 769px) and (max-width: 1200px) {
+  main .header {
+    height: auto;
+    margin-top: 0;
+    padding: 10px 0;
+    background-color: rgba(0, 0, 0, 0.8);
+  }
+
+  main .header .menu ol {
+    flex-direction: column;
+    align-items: center;
+    margin: 10px 0;
+    margin-right: 30px;
+  }
+
+  main .header .menu ol li {
+    padding: 10px;
+    margin: 0;
+  }
+
+  main .header .menu ol li .logo {
+    bottom: 0;
+    /* Вернуть лого в нормальное положение */
+    width: 200px;
+    /* Уменьшить ширину лого */
+  }
+
+  main h1 {
+    margin-top: 50px;
+    font-size: 40px;
+  }
+
+  main h2 {
+    margin-top: 50px;
+    font-size: 30px;
+  }
+
+  main p {
+    margin-top: 40px;
+    font-size: 20px;
+    line-height: 1.4;
+  }
+
+  main p span {
+    font-weight: 800;
+  }
+
+  main .p_clamsy {
+    font-weight: 800;
+  }
+
+  main .clamsy_img {
+    width: 100%;
+    /* Изменить ширину картинки на 100% */
+    height: auto;
+    margin-left: 0;
+    /* Убрать отступ слева */
+  }
+}
+
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-image: url(img/Background.jpg);
+  background-size: cover;
+}
+
+main .header {
+  height: 165px;
+  margin-top: -30px;
+  background-color: rgba(0, 0, 0, 0.452);
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000;
+}
+
+main .header .menu ol {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  list-style-type: none;
+  text-align: center;
+  margin-right: 65px;
+}
+
+main .header .menu ol li {
+  padding: 40px;
+  font-weight: 800;
+  margin-top: 25px;
+  text-align: center;
+}
+
+main .header .menu ol li a {
+  text-decoration: none;
+  cursor: pointer;
+  color: white;
+  transition: 0.30s;
+}
+
+main .header .menu ol li a:hover {
+  color: rgb(166, 166, 166);
+  transition: 0.30s;
+}
+
+main .header .menu ol li .otziv {
+  color: blueviolet;
+}
+
+main .header .menu ol li .logo {
+  position: relative;
+  bottom: 105px;
+  width: 250px;
+}
+
+main h1 {
+  margin-top: 150px;
+  text-align: center;
+  color: white;
+  font-size: 60px;
+  font-weight: 800;
+}
+
+main p {
+  margin-top: 65px;
+  text-align: center;
+  font-weight: 600;
+  font-size: 35px;
+  color: rgb(222, 222, 222);
+  line-height: 1.7;
+}
+
+main .telegram_button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+main .telegram_button button {
+  width: 300px;
+  height: 65px;
+  padding: 10px 20px;
+  border-radius: 30px;
+  background: linear-gradient(to right, #010d94e9, #026afdfc);
+  border: none;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+  font-weight: 600;
+  font-size: 20px;
+  transition: 2s;
+
+}
+
+main .telegram_button button:active {
+  background: linear-gradient(to right, #010d94b6, #0351bfa8);
+}
+
+main .telegram_button button:hover {
+  transition: 1s;
+  width: 250px;
+}
+
+@media (max-width: 768px) {
+  /* Общие изменения для мобильных устройств */
+
+  main .header {
+    height: auto;
+    margin-top: 0;
+    padding: 10px 0;
+    background-color: rgba(0, 0, 0, 0.8);
+  }
+
+  main .header .menu ol {
+    flex-direction: column;
+    align-items: center;
+    margin: 10px 0;
+    margin-right: 30px;
+  }
+
+  main .header .menu ol li {
+    padding: 10px;
+    margin: 0;
+  }
+
+  main .header .menu ol li .logo {
+    bottom: 0;
+    /* Вернуть лого в нормальное положение */
+    width: 200px;
+    /* Уменьшить ширину лого */
+  }
+
+  main h1 {
+    margin-top: 50px;
+    font-size: 40px;
+  }
+
+  main p {
+    margin-top: 40px;
+    font-size: 20px;
+  }
+
+  main .telegram .telegram_text {
+    padding-top: 30px;
+    font-size: 25px;
+  }
+
+  main .telegram .telegram_button button {
+    width: 250px;
+    height: 50px;
+    font-size: 16px;
+  }
+}
+
+/* Стили для планшетов и небольших экранов */
+@media (min-width: 769px) and (max-width: 1200px) {
+  main .header {
+    height: auto;
+    margin-top: 0;
+    padding: 10px 0;
+    background-color: rgba(0, 0, 0, 0.8);
+  }
+
+  main .header .menu ol {
+    flex-direction: column;
+    align-items: center;
+    margin: 10px 0;
+    margin-right: 30px;
+  }
+
+  main .header .menu ol li {
+    padding: 10px;
+    margin: 0;
+  }
+
+  main .header .menu ol li .logo {
+    bottom: 0;
+    /* Вернуть лого в нормальное положение */
+    width: 200px;
+    /* Уменьшить ширину лого */
+  }
+
+  main h1 {
+    margin-top: 50px;
+    font-size: 40px;
+  }
+
+  main h2 {
+    margin-top: 50px;
+    font-size: 30px;
+  }
+
+  main p {
+    margin-top: 40px;
+    font-size: 20px;
+    line-height: 1.4;
+  }
+
+  main p span {
+    font-weight: 800;
+  }
+
+  main .p_clamsy {
+    font-weight: 800;
+  }
+
+  main .clamsy_img {
+    width: 100%;
+    /* Изменить ширину картинки на 100% */
+    height: auto;
+    margin-left: 0;
+    /* Убрать отступ слева */
+  }
+}
+
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-image: url(img/Background.jpg);
+  background-size: cover;
+}
+
+main .header {
+  height: 165px;
+  margin-top: -30px;
+  background-color: rgba(0, 0, 0, 0.452);
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000;
+}
+
+main .header .menu ol {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  list-style-type: none;
+  text-align: center;
+  margin-right: 65px;
+}
+
+main .header .menu ol li {
+  padding: 40px;
+  font-weight: 800;
+  margin-top: 25px;
+  text-align: center;
+}
+
+main .header .menu ol li a {
+  text-decoration: none;
+  cursor: pointer;
+  color: white;
+  transition: 0.30s;
+}
+
+main .header .menu ol li a:hover {
+  color: rgb(166, 166, 166);
+  transition: 0.30s;
+}
+
+main .header .menu ol li .answ_que {
+  color: blueviolet;
+}
+
+main .header .menu ol li .soft {
+  color: white;
+}
+
+main .header .menu ol li .logo {
+  position: relative;
+  bottom: 105px;
+  width: 250px;
+}
+
+main h1 {
+  margin-top: 150px;
+  text-align: center;
+  color: white;
+  font-size: 60px;
+  font-weight: 800;
+}
+
+main .first {
+  margin-top: 65px;
+  text-align: center;
+  font-weight: 600;
+  font-size: 25px;
+  color: rgb(222, 222, 222);
+  line-height: 1.7;
+}
+
+main .first span {
+  font-weight: 900;
+}
+
+main .second {
+  margin-top: 30px;
+  text-align: center;
+  font-weight: 600;
+  font-size: 25px;
+  color: rgb(222, 222, 222);
+  line-height: 1.7;
+}
+
+main .second span {
+  font-weight: 900;
+}
+
+main .third {
+  margin-top: 30px;
+  text-align: center;
+  font-weight: 600;
+  font-size: 25px;
+  color: rgb(222, 222, 222);
+  line-height: 1.7;
+}
+
+main .third span {
+  font-weight: 900;
+}
+
+main .fourth {
+  margin-top: 30px;
+  text-align: center;
+  font-weight: 600;
+  font-size: 25px;
+  color: rgb(222, 222, 222);
+  line-height: 1.7;
+}
+
+main .fourth span {
+  font-weight: 900;
+}
+
+@media (max-width: 768px) {
+  /* Общие изменения для мобильных устройств */
+
+  main .header {
+    height: auto;
+    margin-top: 0;
+    padding: 10px 0;
+    background-color: rgba(0, 0, 0, 0.8);
+  }
+
+  main .header .menu ol {
+    flex-direction: column;
+    align-items: center;
+    margin: 10px 0;
+    margin-right: 30px;
+  }
+
+  main .header .menu ol li {
+    padding: 10px;
+    margin: 0;
+  }
+
+  main .header .menu ol li .logo {
+    bottom: 0;
+    /* Вернуть лого в нормальное положение */
+    width: 200px;
+    /* Уменьшить ширину лого */
+  }
+
+  main h1 {
+    margin-top: 50px;
+    font-size: 40px;
+  }
+
+  main p {
+    margin-top: 40px;
+    font-size: 20px;
+  }
+
+  main .telegram .telegram_text {
+    padding-top: 30px;
+    font-size: 25px;
+  }
+
+  main .telegram .telegram_button button {
+    width: 250px;
+    height: 50px;
+    font-size: 16px;
+  }
+}
+
+/* Стили для планшетов и небольших экранов */
+@media (min-width: 769px) and (max-width: 1200px) {
+  main .header {
+    height: auto;
+    margin-top: 0;
+    padding: 10px 0;
+    background-color: rgba(0, 0, 0, 0.8);
+  }
+
+  main .header .menu ol {
+    flex-direction: column;
+    align-items: center;
+    margin: 10px 0;
+    margin-right: 30px;
+  }
+
+  main .header .menu ol li {
+    padding: 10px;
+    margin: 0;
+  }
+
+  main .header .menu ol li .logo {
+    bottom: 0;
+    /* Вернуть лого в нормальное положение */
+    width: 200px;
+    /* Уменьшить ширину лого */
+  }
+
+  main h1 {
+    margin-top: 50px;
+    font-size: 40px;
+  }
+
+  main h2 {
+    margin-top: 50px;
+    font-size: 30px;
+  }
+
+  main p {
+    margin-top: 40px;
+    font-size: 20px;
+    line-height: 1.4;
+  }
+
+  main p span {
+    font-weight: 800;
+  }
+
+  main .p_clamsy {
+    font-weight: 800;
+  }
+
+  main .clamsy_img {
+    width: 100%;
+    /* Изменить ширину картинки на 100% */
+    height: auto;
+    margin-left: 0;
+    /* Убрать отступ слева */
+  }
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-image: url(img/Background.jpg);
+  background-size: cover;
+}
+
+main .header {
+  height: 165px;
+  margin-top: -30px;
+  background-color: rgba(0, 0, 0, 0.452);
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000;
+}
+
+main .header .menu ol {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  list-style-type: none;
+  text-align: center;
+  margin-right: 65px;
+}
+
+main .header .menu ol li {
+  padding: 40px;
+  font-weight: 800;
+  margin-top: 25px;
+  text-align: center;
+}
+
+main .header .menu ol li a {
+  text-decoration: none;
+  cursor: pointer;
+  color: white;
+  transition: 0.30s;
+}
+
+main .header .menu ol li a:hover {
+  color: rgb(166, 166, 166);
+  transition: 0.30s;
+}
+
+main .header .menu ol li .function {
+  color: blueviolet;
+}
+
+main .header .menu ol li .logo {
+  position: relative;
+  bottom: 105px;
+  width: 250px;
+}
+
+main h1 {
+  margin-top: 150px;
+  text-align: center;
+  color: white;
+  font-size: 60px;
+  font-weight: 800;
+}
+
+main p {
+  margin-top: 80px;
+  text-align: center;
+  font-weight: 600;
+  font-size: 35px;
+  color: rgb(222, 222, 222);
+  line-height: 1.7;
+}
+
+@media (max-width: 768px) {
+  /* Общие изменения для мобильных устройств */
+
+  main .header {
+    height: auto;
+    margin-top: 0;
+    padding: 10px 0;
+    background-color: rgba(0, 0, 0, 0.8);
+  }
+
+  main .header .menu ol {
+    flex-direction: column;
+    align-items: center;
+    margin: 10px 0;
+    margin-right: 30px;
+  }
+
+  main .header .menu ol li {
+    padding: 10px;
+    margin: 0;
+  }
+
+  main .header .menu ol li .logo {
+    bottom: 0;
+    /* Вернуть лого в нормальное положение */
+    width: 200px;
+    /* Уменьшить ширину лого */
+  }
+
+  main h1 {
+    margin-top: 50px;
+    font-size: 40px;
+  }
+
+  main p {
+    margin-top: 40px;
+    font-size: 20px;
+  }
+
+  main .telegram .telegram_text {
+    padding-top: 30px;
+    font-size: 25px;
+  }
+
+  main .telegram .telegram_button button {
+    width: 250px;
+    height: 50px;
+    font-size: 16px;
+  }
+}
+
+/* Стили для планшетов и небольших экранов */
+@media (min-width: 769px) and (max-width: 1200px) {
+  main .header {
+    height: auto;
+    margin-top: 0;
+    padding: 10px 0;
+    background-color: rgba(0, 0, 0, 0.8);
+  }
+
+  main .header .menu ol {
+    flex-direction: column;
+    align-items: center;
+    margin: 10px 0;
+    margin-right: 30px;
+  }
+
+  main .header .menu ol li {
+    padding: 10px;
+    margin: 0;
+  }
+
+  main .header .menu ol li .logo {
+    bottom: 0;
+    /* Вернуть лого в нормальное положение */
+    width: 200px;
+    /* Уменьшить ширину лого */
+  }
+
+  main h1 {
+    margin-top: 50px;
+    font-size: 40px;
+  }
+
+  main h2 {
+    margin-top: 50px;
+    font-size: 30px;
+  }
+
+  main p {
+    margin-top: 40px;
+    font-size: 20px;
+    line-height: 1.4;
+  }
+
+  main p span {
+    font-weight: 800;
+  }
+
+  main .p_clamsy {
+    font-weight: 800;
+  }
+
+  main .clamsy_img {
+    width: 100%;
+    /* Изменить ширину картинки на 100% */
+    height: auto;
+    margin-left: 0;
+    /* Убрать отступ слева */
+  }
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-image: url(img/Background.jpg);
+  background-size: cover;
+  /* Растягивает изображение, чтобы оно покрывало весь фон */
+}
+
+main .header {
+  height: 165px;
+  margin-top: -30px;
+  background-color: rgba(0, 0, 0, 0.452);
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000;
+}
+
+main .header .menu ol {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  list-style-type: none;
+  text-align: center;
+  margin-right: 65px;
+}
+
+main .header .menu ol li {
+  padding: 40px;
+  font-weight: 800;
+  margin-top: 25px;
+  text-align: center;
+}
+
+main .header .menu ol li a {
+  text-decoration: none;
+  cursor: pointer;
+  color: white;
+  transition: 0.30s;
+}
+
+main .header .menu ol li .soft {
+  color: blueviolet;
+}
+
+main .header .menu ol li a:hover {
+  color: rgb(166, 166, 166);
+  transition: 0.30s;
+}
+
+main .header .menu ol li .logo {
+  position: relative;
+  bottom: 105px;
+  width: 250px;
+
+}
+
+main h1 {
+  margin-top: 150px;
+  text-align: center;
+  color: white;
+  font-size: 60px;
+  font-weight: 800;
+}
+
+main p {
+  margin-top: 80px;
+  text-align: center;
+  font-weight: 600;
+  font-size: 35px;
+  color: rgb(222, 222, 222);
+  line-height: 1.5;
+}
+
+main .telegram .telegram_button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+main .telegram .telegram_button button {
+  width: 300px;
+  height: 65px;
+  padding: 10px 20px;
+  border-radius: 30px;
+  background: linear-gradient(to right, #010d94e9, #026afdfc);
+  border: none;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+  font-weight: 600;
+  font-size: 20px;
+  transition: 2s;
+
+}
+
+main .telegram .telegram_button button:active {
+  background: linear-gradient(to right, #010d94b6, #0351bfa8);
+}
+
+main .telegram .telegram_button button:hover {
+  transition: 1s;
+  width: 250px;
+}
+
+@media (max-width: 768px) {
+  /* Общие изменения для мобильных устройств */
+
+  main .header {
+    height: auto;
+    margin-top: 0;
+    padding: 10px 0;
+    background-color: rgba(0, 0, 0, 0.8);
+  }
+
+  main .header .menu ol {
+    flex-direction: column;
+    align-items: center;
+    margin: 10px 0;
+    margin-right: 30px;
+  }
+
+  main .header .menu ol li {
+    padding: 10px;
+    margin: 0;
+  }
+
+  main .header .menu ol li .logo {
+    bottom: 0;
+    /* Вернуть лого в нормальное положение */
+    width: 200px;
+    /* Уменьшить ширину лого */
+  }
+
+  main h1 {
+    margin-top: 50px;
+    font-size: 40px;
+  }
+
+  main p {
+    margin-top: 40px;
+    font-size: 20px;
+  }
+
+  main .telegram .telegram_text {
+    padding-top: 30px;
+    font-size: 25px;
+  }
+
+  main .telegram .telegram_button button {
+    width: 250px;
+    height: 50px;
+    font-size: 16px;
+  }
+}
+
+/* Стили для планшетов и небольших экранов */
+@media (min-width: 769px) and (max-width: 1200px) {
+  main .header {
+    height: auto;
+    margin-top: 0;
+    padding: 10px 0;
+    background-color: rgba(0, 0, 0, 0.8);
+  }
+
+  main .header .menu ol {
+    flex-direction: column;
+    align-items: center;
+    margin: 10px 0;
+    margin-right: 30px;
+  }
+
+  main .header .menu ol li {
+    padding: 10px;
+    margin: 0;
+  }
+
+  main .header .menu ol li .logo {
+    bottom: 0;
+    /* Вернуть лого в нормальное положение */
+    width: 200px;
+    /* Уменьшить ширину лого */
+  }
+
+  main h1 {
+    margin-top: 50px;
+    font-size: 40px;
+  }
+
+  main h2 {
+    margin-top: 50px;
+    font-size: 30px;
+  }
+
+  main p {
+    margin-top: 40px;
+    font-size: 20px;
+    line-height: 1.4;
+  }
+
+  main p span {
+    font-weight: 800;
+  }
+
+  main .p_clamsy {
+    font-weight: 800;
+  }
+
+  main .clamsy_img {
+    width: 100%;
+    /* Изменить ширину картинки на 100% */
+    height: auto;
+    margin-left: 0;
+    /* Убрать отступ слева */
+  }
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-image: url(img/Background.jpg);
+  background-size: cover;
+  /* Растягивает изображение, чтобы оно покрывало весь фон */
+}
+
+main .header {
+  height: 165px;
+  margin-top: -30px;
+  background-color: rgba(0, 0, 0, 0.452);
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000;
+}
+
+main .header .menu ol {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  list-style-type: none;
+  text-align: center;
+  margin-right: 65px;
+}
+
+main .header .menu ol li {
+  padding: 40px;
+  font-weight: 800;
+  margin-top: 25px;
+  text-align: center;
+}
+
+main .header .menu ol li a {
+  text-decoration: none;
+  cursor: pointer;
+  color: white;
+  transition: 0.30s;
+}
+
+main .header .menu ol li .mainy {
+  color: blueviolet;
+}
+
+main .header .menu ol li a:hover {
+  color: rgb(166, 166, 166);
+  transition: 0.30s;
+}
+
+main .header .menu ol li .logo {
+  position: relative;
+  bottom: 105px;
+  width: 250px;
+
+}
+
+main h1 {
+  text-align: center;
+  margin-top: 150px;
+  font-size: 60px;
+  font-weight: 800;
+  color: white;
+}
+
+main p {
+  margin-top: 80px;
+  text-align: center;
+  font-weight: 500;
+  font-size: 35px;
+  color: rgb(222, 222, 222);
+  line-height: 1.5;
+}
+
+main .telegram .telegram_text {
+  text-align: center;
+  font-weight: 800;
+  font-size: 30px;
+  color: rgb(224, 224, 224);
+  padding-top: 60px;
+}
+
+
+
+main .telegram .telegram_channel {
+  width: 300px;
+  height: 50px;
+  margin-left: 850px;
+}
+
+main .telegram .telegram_button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+main .telegram .telegram_button button {
+  width: 300px;
+  height: 65px;
+  padding: 10px 20px;
+  border-radius: 30px;
+  background: linear-gradient(to right, #010d94e9, #026afdfc);
+  border: none;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+  font-weight: 600;
+  font-size: 20px;
+  transition: 2s;
+
+}
+
+main .telegram .telegram_button button:active {
+  background: linear-gradient(to right, #010d94b6, #0351bfa8);
+}
+
+main .telegram .telegram_button button:hover {
+  transition: 1s;
+  width: 250px;
+}
+
+
+@media (max-width: 768px) {
+  /* Общие изменения для мобильных устройств */
+
+  main .header {
+    width: auto;
+    height: auto;
+    margin-top: 0;
+    padding: 10px 0;
+    background-color: rgba(0, 0, 0, 0.8);
+  }
+
+  main .header .menu ol {
+    flex-direction: column;
+    align-items: center;
+    margin: 10px 0;
+    margin-right: 30px;
+  }
+
+  main .header .menu ol li {
+    padding: 10px;
+    margin: 0;
+  }
+
+  main .header .menu ol li .logo {
+    bottom: 0;
+    /* Вернуть лого в нормальное положение */
+    width: 200px;
+    /* Уменьшить ширину лого */
+  }
+
+  main h1 {
+    margin-top: 50px;
+    font-size: 35px;
+  }
+
+  main p {
+    margin-top: 40px;
+    font-size: 20px;
+  }
+
+  main .telegram .telegram_text {
+    padding-top: 30px;
+    font-size: 25px;
+  }
+
+  main .telegram .telegram_button button {
+    width: 250px;
+    height: 50px;
+    font-size: 16px;
+  }
+}
+
+@media (min-width: 769px) and (max-width: 1200px) {
+  main .header {
+    height: auto;
+    margin-top: 0;
+    padding: 10px 0;
+    background-color: rgba(0, 0, 0, 0.8);
+  }
+
+  main .header .menu ol {
+    flex-direction: column;
+    align-items: center;
+    margin: 10px 0;
+    margin-right: 30px;
+  }
+
+  main .header .menu ol li {
+    padding: 10px;
+    margin: 0;
+  }
+
+  main .header .menu ol li .logo {
+    bottom: 0;
+    /* Вернуть лого в нормальное положение */
+    width: 200px;
+    /* Уменьшить ширину лого */
+  }
+
+  main h1 {
+    margin-top: 50px;
+    font-size: 40px;
+  }
+
+  main h2 {
+    margin-top: 50px;
+    font-size: 30px;
+  }
+
+  main p {
+    margin-top: 40px;
+    font-size: 20px;
+    line-height: 1.4;
+  }
+
+  main p span {
+    font-weight: 800;
+  }
+
+  main .p_clamsy {
+    font-weight: 800;
+  }
+
+  main .clamsy_img {
+    width: 100%;
+    /* Изменить ширину картинки на 100% */
+    height: auto;
+    margin-left: 0;
+    /* Убрать отступ слева */
+  }
+}
